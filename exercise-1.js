@@ -1,6 +1,6 @@
 window.addEventListener('load', () => {
     const button = document.querySelector('#some-button');
     button.addEventListener('click', event => {
-            event.target.value+=1;
+            event.target.value++;
     });
 })
