@@ -1,5 +1,3 @@
-window.addEventListener('load', () => {
-
     const input=document.querySelector('#some-input');
     const output=document.querySelector('#some-output');
 
@@ -11,5 +9,3 @@ window.addEventListener('load', () => {
     buttonDecode.addEventListener('click', event => {
             output.value=decodeURIComponent(input.value);
     });
-
-})
