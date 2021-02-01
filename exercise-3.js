@@ -1,5 +1,5 @@
-    const input=document.querySelector('#some-input');
-    const output=document.querySelector('#some-output');
+    const input=document.querySelector('#input');
+    const output=document.querySelector('#output');
 
     const buttonEncode = document.querySelector('#button-encode');
     buttonEncode.addEventListener('click', event => {

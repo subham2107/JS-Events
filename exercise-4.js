@@ -1,5 +1,5 @@
-const output=document.querySelector('#some-output');
-const inputField = document.querySelector('#some-input');
+const output=document.querySelector('#output');
+const inputField = document.querySelector('#input');
 inputField.addEventListener('input', event => {
 output.innerHTML=inputField.value.length;       
 });
