@@ -1,4 +1,4 @@
 const button = document.querySelector('#button');
-button.addEventListener('click', event => {
-event.target.value++;
+button.addEventListener('click', () => {
+button.value++;
 });
